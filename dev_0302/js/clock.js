@@ -6,7 +6,8 @@ function getClock(){
     const hours = String(date.getHours()).padStart(2, "0");
     const minutes = String(date.getMinutes()).padStart(2, "0");
     const seconds = String(date.getSeconds()).padStart(2, "0");
-    // clock.innerText = (`${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`);
+    // clock.innerText = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+    // 위 형식으로는 한 자릿수 숫자를 두 자리로 바꾸기 어렵다.
     clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
