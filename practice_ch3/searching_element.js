@@ -10,6 +10,5 @@ const id = document.querySelector("#hello");
 // hello 클래스 안의 h1을 가져온다.
 const title = document.querySelector(".hello h1");
 
-
 const hellos = document.getElementsByClassName("hello");
 console.log(title);
