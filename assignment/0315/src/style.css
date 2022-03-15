@@ -1,0 +1,10 @@
+.hidden {
+    display: none;
+  }
+  body {
+    font-family: Georgia, serif;
+  }
+  #guessing {
+    font-weight: bolder;
+  }
+  
